@@ -7,7 +7,7 @@
  * Author: Anas Uddin
  * Author URI: https://www.linkedin.com/in/anasuddinpk/
  * Text Domain: moq-controller
- * 
+ *
  * @package moq-controller-plugin
  */
 
@@ -27,4 +27,4 @@ if ( ! defined( 'MOQC_ABSPATH' ) ) {
 	define( 'MOQC_ABSPATH', dirname( __FILE__ ) );
 }
 
-include_once MOQC_ABSPATH . '/includes/class-moqc-loader.php';
+require_once MOQC_ABSPATH . '/includes/class-moqc-loader.php';
